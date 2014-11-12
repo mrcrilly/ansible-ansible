@@ -1,0 +1,4 @@
+---
+
+- name: Ensure Ansible is installed
+  pip: name=ansible state=present

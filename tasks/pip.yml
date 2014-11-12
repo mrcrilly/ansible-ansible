@@ -1,0 +1,13 @@
+---
+
+- name: Ensure Python Pip is installed (Debian)
+  apt:
+    pkg: python-pip
+    state: present
+  when: ansible_os_family == "Debian"
+
+- name: Ensure Python Pip is installed (RedHat)
+  yum:
+    name: python-pip
+    state: present
+  when: ansible_os_family == "RedHat"

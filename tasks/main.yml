@@ -1,0 +1,11 @@
+---
+
+- include: pip.yml
+  tags:
+    - mrcrilly_ansible
+    - mrcrilly_ansible_pip
+
+- include: ansible.yml
+  tags:
+    - mrcrilly_ansible
+    - mrcrilly_ansible_ansible

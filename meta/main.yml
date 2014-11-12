@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Michael Crilly
+  description: Ansible role
+  company: AutoLogic Technology Ltd
+  license: BSD
+  min_ansible_version: 1.7
+  platforms:
+  - name: EL
+    versions:
+      - 6
+  - name: Ubuntu
+    versions:
+      - precise
+  #- name: Debian
+  #  versions:
+  #  - wheezy
+  categories:
+    - system
+    - management
+dependencies: []
